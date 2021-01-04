@@ -1,0 +1,9 @@
+specbee.site_loc_form:
+  path: '/admin/config/specbee/site-location'
+  defaults:
+    _form: '\Drupal\specbee\Form\SiteLocationForm'
+    _title: 'Specbee Site Location & Timezone Form'
+  requirements:
+    _permission: 'access administration pages'
+  options:
+    _admin_route: TRUE

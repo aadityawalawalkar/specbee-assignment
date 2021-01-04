@@ -1,0 +1,5 @@
+name: 'specbee'
+type: module
+description: 'Specbee Interview Assignment'
+core: 8.x
+package: 'Custom'

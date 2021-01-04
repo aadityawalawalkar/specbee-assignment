@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - specbee
+  theme:
+    - bartik
+id: specbeesitelocationtimeblock
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: specbee_site_loc_time_block
+settings:
+  id: specbee_site_loc_time_block
+  label: 'Specbee Site Location & Time block'
+  provider: specbee
+  label_display: visible
+visibility: {  }

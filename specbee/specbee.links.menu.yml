@@ -1,0 +1,6 @@
+specbee.site_loc_form:
+  title: 'Specbee Site Location & Timezone'
+  route_name: specbee.site_loc_form
+  description: 'Configure Specbee Site Location & Timezone'
+  parent: system.admin_config_system
+  weight: 99

@@ -1,0 +1,21 @@
+{#
+/**
+* @file
+* Default theme implementation to display a block.
+*
+* @see template_preprocess_block()
+*
+* @ingroup themeable
+*/
+#}
+{% set classes = [
+    'clear-both',
+] %}
+{% if content.location %}
+	<div{{ attributes.addClass(classes) }}>
+	  {{ content.location }}
+	</div>
+	<div{{ attributes.addClass(classes) }}>
+	  {{ content.time }}
+	</div>
+{% endif %}
